@@ -1,1 +1,8 @@
 
+li{
+    display: inline;
+    margin-right: 1rem;
+}
+.child div{
+    margin: 2rem;
+}
