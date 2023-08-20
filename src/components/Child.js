@@ -21,7 +21,7 @@ import React from 'react'
      <h1>
         Child Component
      </h1>
-     <ul>
+    
        {
         cartItems.map(element => (
            <div>
@@ -32,7 +32,7 @@ import React from 'react'
             </div>
         ))
         }
-     </ul>
+    
     </div>
   )
 }

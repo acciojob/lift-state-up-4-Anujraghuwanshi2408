@@ -13,9 +13,9 @@ import Child from './Child';
   return (
     <div className='parent'>
         <label for ="Item Name">Item Name:</label>
-        <input   type='text' onChange={(e)=> setName(e.target.value)} value={name} />
+        <input   type='text' onChange={(e)=> setName(e.target.value)} value={name}  id='itemName'/>
         <label for ="Item Price">Item Price:</label>
-        <input  type='text' onChange={(e)=> setItems(e.target.value)} value={item}/>
+        <input  type='text' onChange={(e)=> setItems(e.target.value)} value={item} id='itemPrice'/>
         <button onClick={addItems}>Add Item</button>
         <Child  setCartItems = {setCartItems}
                 cartItems   = {cartItems}
