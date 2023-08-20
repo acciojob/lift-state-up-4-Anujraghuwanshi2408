@@ -4,9 +4,9 @@ import Child from './Child';
   
     const [cartItems , setCartItems] = useState(
         [
-        {"itemName":"Item 1" ,  "itemPrice" : 10},
-        {"itemName":"Item 2" ,  "itemPrice" : 20},
-        {"itemName":"Item 3" ,  "itemPrice" : 30}
+        {id : 1 ,"itemName":"Item 1" ,  "itemPrice" : 10},
+        {id : 2 ,"itemName":"Item 2" ,  "itemPrice" : 20},
+        {id : 3 ,"itemName":"Item 3" ,  "itemPrice" : 30}
        ]
         )
     const[name , setName] = useState("");
