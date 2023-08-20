@@ -26,7 +26,7 @@ import React from 'react'
         cartItems.map(element => (
            <div>
              <li>
-                {element.itemName} - {element.itemPrice}
+                {element.itemName} - ${element.itemPrice}
              </li>
                 <button onClick={removeUser}>Remove</button> 
             </div>
